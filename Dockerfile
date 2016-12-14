@@ -8,4 +8,5 @@ RUN apt-get install -y git nano htop
 
 ADD . /working
 WORKDIR /working
+WORKDIR /working
 
