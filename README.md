@@ -12,14 +12,18 @@ As you can see, MountainProcess uses a genereric interface, and you can use it t
 
 * Install MountainLab: https://github.com/magland/mountainlab
 * Clone this repository into the mountainlab/user/processors directory
-* Be sure that docker installed and that your user is in the docker group (see below)
+* Be sure that docker is installed and that your user is in the docker group (see below)
 * Run the test:
 
 ```
 ./test.sh
 ```
 
+### Installing docker
+
 In Ubuntu you can install docker using:
 ```
 sudo apt-get install docker.io
 ```
+
+Be sure to add your user to the docker group so that sudo is not required to run docker.
