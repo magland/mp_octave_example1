@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mp-run-process shellcopy --input=$PWD/README.md --output=$PWD/copy_using_shellcopy.md
-mp-run-process octcopy --input=$PWD/README.md --output=$PWD/copy_using_octcopy.md
+mp-run-process shellcopy --input=$PWD/test.sh --output=$PWD/shellcopy_of_test.sh
+mp-run-process octcopy --input=$PWD/test.sh --output=$PWD/octcopy_of_test.sh
